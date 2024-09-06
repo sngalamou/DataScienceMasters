@@ -1,0 +1,8 @@
+[cloudshell-user@ip-10-132-49-1 ~]$ aws iam list-users --query 'Users[*].[UserName,UserId,Arn]' --output text
+Simeon-AirlineUser      AIDATCKARAX6PIDYKXVX2   arn:aws:iam::211125601788:user/Simeon-AirlineUser
+Simeon-FinUser  AIDATCKARAX6E4YNDN2H7   arn:aws:iam::211125601788:user/Simeon-FinUser
+Simeon-ITUser   AIDATCKARAX6GXY5J5576   arn:aws:iam::211125601788:user/Simeon-ITUser
+
+
+Password: S1meon@12
+AccountID: 211125601788

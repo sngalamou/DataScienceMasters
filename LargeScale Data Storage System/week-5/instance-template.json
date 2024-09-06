@@ -1,0 +1,15 @@
+{
+  "Resources": {
+    "EC2Instance": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "ami-09b90e09742640522",
+        "InstanceType": "t2.micro",
+        "KeyName": "Data-54000-simeon",
+        "SecurityGroupIds": [
+          "sg-0e732cc31248512f7"
+        ]
+      }
+    }
+  }
+}

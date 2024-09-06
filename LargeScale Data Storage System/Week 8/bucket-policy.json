@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1715189368877",
+            "Effect": "Deny",
+            "Principal": {
+                "AWS": [
+                    "arn:aws:iam::211125601788:user/Simeon-FinUser",
+                    "arn:aws:iam::211125601788:user/Simeon-ITUser"
+                ]
+            },
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::simeon-airline-bucket",
+                "arn:aws:s3:::simeon-airline-bucket/*",
+                "arn:aws:s3:::simeon-airline-bucket/Simeon-sp242-Q2-2014.csv"
+            ]
+        }
+    ]
+}

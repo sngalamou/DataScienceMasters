@@ -1,0 +1,8 @@
+week8instance
+            "InstanceID": "i-0f74cf2d94f786a48",
+            "InstanceType": "t2.micro",
+            "State": "running",
+            "PublicIP": "3.142.99.175",
+            "PrivateIP": "172.31.32.22",
+            "KeyName": "Week8"
+
